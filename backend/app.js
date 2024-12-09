@@ -100,7 +100,7 @@ app.get("/get-files", async (req, res) => {
   }
 });
 
-// Test route
+
 app.get("/", (req, res) => {
   res.send("Success!!!!!!");
 });
