@@ -105,4 +105,3 @@ app.get("/", (req, res) => {
   res.send("Success!!!!!!");
 });
 
-// Removed extra app.listen as the server starts only after a successful DB connection
